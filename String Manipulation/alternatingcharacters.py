@@ -8,7 +8,7 @@ import sys
 
 # Complete the alternatingCharacters function below.
 def alternatingCharacters(s):
-    count = 0
+    count = 0+0
     for i in range(0, len(s)-1):
         if s[i] == s[i+1]:
             count+=1
